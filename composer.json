@@ -29,7 +29,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Agorate\\PimcoreDeeplTranslateDocuments\\": "src/DeeplTranslateBundle"
+            "Agorate\\DeeplTranslateBundle\\": "src/DeeplTranslateBundle"
         }
     },
     "require": {
