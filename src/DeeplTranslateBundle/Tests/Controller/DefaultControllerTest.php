@@ -1,6 +1,6 @@
 <?php
 
-namespace Agorate\PimcoreDeeplTranslateDocuments\DeeplTranslateBundle\Tests\Controller;
+namespace Agorate\DeeplTranslateBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

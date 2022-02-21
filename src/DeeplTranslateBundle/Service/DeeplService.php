@@ -1,6 +1,6 @@
 <?php
 
-namespace Agorate\PimcoreDeeplTranslateDocuments\DeeplTranslateBundle\Service;
+namespace Agorate\DeeplTranslateBundle\Service;
 
 use Pimcore\Model\WebsiteSetting;
 use Symfony\Component\HttpClient\HttpClient;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Agorate\PimcoreDeeplTranslateDocuments\DeeplTranslateBundle\DependencyInjection;
+namespace Agorate\DeeplTranslateBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

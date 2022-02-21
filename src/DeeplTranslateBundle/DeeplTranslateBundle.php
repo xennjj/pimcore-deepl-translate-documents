@@ -1,12 +1,13 @@
 <?php
 
-namespace agorate\DeeplTranslationBundle;
+namespace Agorate\DeeplTranslateBundle;
 
 use PackageVersions\Versions;
 use Pimcore\Extension\Bundle\AbstractPimcoreBundle;
+use Pimcore\Extension\Bundle\PimcoreBundleInterface;
 use Pimcore\Extension\Bundle\Traits\PackageVersionTrait;
 
-class agorateDeeplTranslationBundle extends AbstractPimcoreBundle
+class DeeplTranslateBundle extends AbstractPimcoreBundle implements PimcoreBundleInterface
 {
     use PackageVersionTrait;
     const PACKAGE_NAME = 'agorate/pimcore-deepl-translate-documents';

@@ -11,11 +11,11 @@ services:
 
     # controllers are imported separately to make sure they're public
     # and have a tag that allows actions to type-hint services
-    Agorate\DeeplTranslationBundle\Controller\:
+    Agorate\DeeplTranslateBundle\Controller\:
         resource: '../../Controller'
         public: true
         tags: ['controller.service_arguments']
-    Agorate\DeeplTranslationBundle\Service\:
+    Agorate\DeeplTranslateBundle\Service\:
         resource: '../../Service'
         public: true
 
