@@ -2,7 +2,7 @@
 
 namespace Agorate\DeeplTranslateBundle\Controller;
 
-use Agorate\PimcoreDeeplTranslateDocuments\DeeplTranslateBundle\Service\DeeplService;
+use Agorate\DeeplTranslateBundle\Service\DeeplService;
 use Exception;
 use Pimcore\Controller\FrontendController;
 use Pimcore\Model\Document;
