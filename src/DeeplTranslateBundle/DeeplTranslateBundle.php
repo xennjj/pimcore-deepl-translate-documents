@@ -20,7 +20,7 @@ class DeeplTranslateBundle extends AbstractPimcoreBundle implements PimcoreBundl
     public function getJsPaths(): array
     {
         return [
-            '/bundles/DeeplTranslateBundle/js/deepl-translation/startup.js'
+            '/bundles/deepltranslate/js/deepl-translation/startup.js'
         ];
 
     }
