@@ -1,16 +1,24 @@
 <?php
 
-namespace Agorate\DeeplTranslateBundle;
+/**
+ * This source file is subject to the GNU General Public License version 3 (GPLv3)
+ * For the full copyright and license information, please view the LICENSE.md and gpl-3.0.txt
+ * files that are distributed with this source code.
+ *
+ * @copyright  Copyright (c) agorate GmbH (https://www.agorate.de)
+ */
+
+namespace Agorate\PimcoreDeeplBundle;
 
 use PackageVersions\Versions;
 use Pimcore\Extension\Bundle\AbstractPimcoreBundle;
 use Pimcore\Extension\Bundle\PimcoreBundleInterface;
 use Pimcore\Extension\Bundle\Traits\PackageVersionTrait;
 
-class DeeplTranslateBundle extends AbstractPimcoreBundle implements PimcoreBundleInterface
+class PimcoreDeeplBundle extends AbstractPimcoreBundle implements PimcoreBundleInterface
 {
     use PackageVersionTrait;
-    const PACKAGE_NAME = 'agorate/pimcore-deepl-translate-documents';
+    const PACKAGE_NAME = 'agorate/pimcore-deepl';
 
     /**
      * Returns all used JavaScript files
@@ -20,7 +28,7 @@ class DeeplTranslateBundle extends AbstractPimcoreBundle implements PimcoreBundl
     public function getJsPaths(): array
     {
         return [
-            '/bundles/deepltranslate/js/deepl-translation/startup.js'
+            '/bundles/pimcoredeepl/js/deepl-translation/startup.js'
         ];
 
     }
@@ -32,7 +40,7 @@ class DeeplTranslateBundle extends AbstractPimcoreBundle implements PimcoreBundl
      */
     public function getNiceName(): string
     {
-        return 'Agorate - Deepl Translate Document Pimcore Bundle';
+        return 'agorate - Pimcore Deepl Bundle';
     }
 
     /**
@@ -42,7 +50,7 @@ class DeeplTranslateBundle extends AbstractPimcoreBundle implements PimcoreBundl
      */
     public function getDescription(): string
     {
-        return "";
+        return "Bundle to translate (currently just documents) via deepl";
     }
 
     /** normalizes version to pretty version

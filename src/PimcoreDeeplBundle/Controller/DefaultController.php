@@ -1,8 +1,16 @@
 <?php
 
-namespace Agorate\DeeplTranslateBundle\Controller;
+/**
+ * This source file is subject to the GNU General Public License version 3 (GPLv3)
+ * For the full copyright and license information, please view the LICENSE.md and gpl-3.0.txt
+ * files that are distributed with this source code.
+ *
+ * @copyright  Copyright (c) agorate GmbH (https://www.agorate.de)
+ */
 
-use Agorate\DeeplTranslateBundle\Service\DeeplService;
+namespace Agorate\PimcoreDeeplBundle\Controller;
+
+use Agorate\PimcoreDeeplBundle\Service\DeeplService;
 use Exception;
 use Pimcore\Controller\FrontendController;
 use Pimcore\Model\Document;

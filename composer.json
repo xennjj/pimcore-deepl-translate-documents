@@ -1,7 +1,8 @@
 {
-    "name": "agorate/pimcore-deepl-translate-documents",
+    "name": "agorate/pimcore-deepl",
     "type": "pimcore-bundle",
-    "description": "With this Bundle you can translate your documents via Deepl Interface",
+    "license": "GPL-3.0-or-later",
+    "description": "With this Bundle you can translate your documents via DeepL Interface",
     "keywords": [
         "pimcore",
         "pimcore-plugin",
@@ -10,7 +11,6 @@
         "translation",
         "deepL",
         "agorate"
-
     ],
     "homepage": "https://www.agorate.de",
     "authors": [
@@ -29,7 +29,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Agorate\\DeeplTranslateBundle\\": "src/DeeplTranslateBundle"
+            "Agorate\\PimcoreDeeplBundle\\": "src/PimcoreDeeplBundle"
         }
     },
     "require": {
@@ -38,7 +38,7 @@
     "extra": {
         "pimcore": {
             "bundles": [
-                "Agorate\\DeeplTranslateBundle\\DeeplTranslateBundle"
+                "Agorate\\PimcoreDeeplBundle\\PimcoreDeeplBundle"
             ]
         }
     }

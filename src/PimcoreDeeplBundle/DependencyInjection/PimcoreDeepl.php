@@ -1,6 +1,14 @@
 <?php
 
-namespace Agorate\DeeplTranslateBundle\DependencyInjection;
+/**
+ * This source file is subject to the GNU General Public License version 3 (GPLv3)
+ * For the full copyright and license information, please view the LICENSE.md and gpl-3.0.txt
+ * files that are distributed with this source code.
+ *
+ * @copyright  Copyright (c) agorate GmbH (https://www.agorate.de)
+ */
+
+namespace Agorate\PimcoreDeeplBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
@@ -12,7 +20,7 @@ use Symfony\Component\DependencyInjection\Loader;
  *
  * @link http://symfony.com/doc/current/cookbook/bundles/extension.html
  */
-class agorateDeeplTranslationExtension extends Extension
+class PimcoreDeeplExtension extends Extension
 {
     /**
      * {@inheritdoc}

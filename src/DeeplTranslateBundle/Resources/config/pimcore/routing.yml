@@ -1,4 +1,0 @@
-deepl_translate_document:
-    methods: [ "POST" ]
-    path: /admin/deeplTranslateDocument
-    controller: Agorate\DeeplTranslateBundle\Controller\DefaultController::deeplTranslateDocument

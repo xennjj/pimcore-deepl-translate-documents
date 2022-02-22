@@ -1,6 +1,14 @@
 <?php
 
-namespace Agorate\DeeplTranslateBundle\Service;
+/**
+ * This source file is subject to the GNU General Public License version 3 (GPLv3)
+ * For the full copyright and license information, please view the LICENSE.md and gpl-3.0.txt
+ * files that are distributed with this source code.
+ *
+ * @copyright  Copyright (c) agorate GmbH (https://www.agorate.de)
+ */
+
+namespace Agorate\PimcoreDeeplBundle;
 
 use Pimcore\Model\WebsiteSetting;
 use Symfony\Component\HttpClient\HttpClient;
