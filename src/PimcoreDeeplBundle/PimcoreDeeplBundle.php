@@ -18,7 +18,7 @@ use Pimcore\Extension\Bundle\Traits\PackageVersionTrait;
 class PimcoreDeeplBundle extends AbstractPimcoreBundle implements PimcoreBundleInterface
 {
     use PackageVersionTrait;
-    const PACKAGE_NAME = 'agorate/pimcore-deepl';
+    const PACKAGE_NAME = 'agorate/pimcore-deepl-translate-documents';
 
     /**
      * Returns all used JavaScript files

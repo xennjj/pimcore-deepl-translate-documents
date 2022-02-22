@@ -1,5 +1,5 @@
 {
-    "name": "agorate/pimcore-deepl",
+    "name": "agorate/pimcore-deepl-translate-documents",
     "type": "pimcore-bundle",
     "license": "GPL-3.0-or-later",
     "description": "With this Bundle you can translate your documents via DeepL Interface",
