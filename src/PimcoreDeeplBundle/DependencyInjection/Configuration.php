@@ -25,11 +25,13 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder('agorate_deepl_translation');
-
-        // Here you should define the parameters that are allowed to
-        // configure your bundle. See the documentation linked above for
-        // more information on that topic.
+        $treeBuilder = new TreeBuilder('pimcore_deepl');
+        $rootNode = $treeBuilder->getRootNode();
+        $rootNode
+            ->children()
+            ->scalarNode('deepl_auth_key')->end()
+            ->end()
+            ->end();
 
         return $treeBuilder;
     }

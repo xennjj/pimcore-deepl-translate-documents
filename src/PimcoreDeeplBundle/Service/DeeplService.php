@@ -39,7 +39,7 @@ class DeeplService
             return null;
         }
 
-        $authKey = WebsiteSetting::getByName("deepl_auth_key") ? WebsiteSetting::getByName("deepl_auth_key")->getData() : null;
+        $authKey = $this->container->getParameter('pimcore_deepl');
 
         $response = $this->httpClient->request('POST', "https://api.deepl.com/v2/translate", [
             'body' => [
