@@ -8,7 +8,7 @@
  * @copyright  Copyright (c) agorate GmbH (https://www.agorate.de)
  */
 
-namespace Agorate\PimcoreDeeplBundle;
+namespace Agorate\PimcoreDeeplBundle\Service;
 
 use Pimcore\Model\WebsiteSetting;
 use Symfony\Component\HttpClient\HttpClient;
